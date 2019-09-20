@@ -5,6 +5,10 @@ category: test
 tag: 1.0
 ---
 
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 
 
 # Welcome to StackEdit!
