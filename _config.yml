@@ -338,7 +338,7 @@ github_projects :
   projects :
   - project :
     name : gh-pages-blog
-    url : https://github.com/thedereck/gh-pages-blog
+    url : https://github.com/lampard999999999/gh-pages-blog
 
 
 # These are links to other websites outside of the blog that are not part of
@@ -367,8 +367,8 @@ external_links :
   header : More Great gh-pages-blog Sites
   links :
     - link :
-      name : The Dereck
-      url: https://thedereck.github.io
+      name : The Now
+      url: https://github.com/lampard999999999/gh-pages-blog
 
 
 # These are the Bootstrap settings. These Bootstrap settings will control both
