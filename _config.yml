@@ -427,7 +427,7 @@ bootstrap:
 #   src : jquery-1.9.1.min.js
 jquery:
   enabled : true
-  src : jquery-1.9.1.min.js
+  src : jquery-3.3.1.min.js
 
 
 # Font Awesome includes many different fonts that are used throughout the
