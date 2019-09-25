@@ -27,7 +27,7 @@ END;
 
 ## Sequence
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'DROP SEQUENCE ' || sequence_name;
 EXCEPTION
@@ -40,7 +40,7 @@ END;
 
 ## View
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'DROP VIEW ' || view_name;
 EXCEPTION
@@ -53,7 +53,7 @@ END;
 
 ## Trigger
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'DROP TRIGGER ' || trigger_name;
 EXCEPTION
@@ -66,7 +66,7 @@ END;
 
 ## Index
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'DROP INDEX ' || index_name;
 EXCEPTION
@@ -79,7 +79,7 @@ END;
 
 ## Column
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'ALTER TABLE ' || table_name
                 || ' DROP COLUMN ' || column_name;
@@ -93,7 +93,7 @@ END;
 
 ## Database Link
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'DROP DATABASE LINK ' || dblink_name;
 EXCEPTION
@@ -106,7 +106,7 @@ END;
 
 ## Materialized View
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'DROP MATERIALIZED VIEW ' || mview_name;
 EXCEPTION
@@ -119,7 +119,7 @@ END;
 
 ## Type
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'DROP TYPE ' || type_name;
 EXCEPTION
@@ -132,7 +132,7 @@ END;
 
 ## Constraint
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'ALTER TABLE ' || table_name
             || ' DROP CONSTRAINT ' || constraint_name;
@@ -146,7 +146,7 @@ END;
 
 ## Scheduler Job
 
-```
+```sql
 BEGIN
   DBMS_SCHEDULER.drop_job(job_name);
 EXCEPTION
@@ -159,7 +159,7 @@ END;
 
 ## User / Schema
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'DROP USER ' || user_name;
   /* you may or may not want to add CASCADE */
@@ -173,7 +173,7 @@ END;
 
 ## Package
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'DROP PACKAGE ' || package_name;
 EXCEPTION
@@ -186,7 +186,7 @@ END;
 
 ## Procedure
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'DROP PROCEDURE ' || procedure_name;
 EXCEPTION
@@ -199,7 +199,7 @@ END;
 
 ## Function
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'DROP FUNCTION ' || function_name;
 EXCEPTION
@@ -212,7 +212,7 @@ END;
 
 ## Tablespace
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'DROP TABLESPACE' || tablespace_name;
 EXCEPTION
@@ -225,7 +225,7 @@ END;
 
 ## Synonym
 
-```
+```sql
 BEGIN
   EXECUTE IMMEDIATE 'DROP SYNONYM ' || synonym_name;
 EXCEPTION
