@@ -12,7 +12,7 @@ tag:
 
 ## Table
 
-```
+```sql
 BEGIN
    EXECUTE IMMEDIATE 'DROP TABLE ' || table_name;
 EXCEPTION
