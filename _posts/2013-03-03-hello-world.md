@@ -2,7 +2,9 @@
 layout : post
 title : Hello, world!
 category: test
-tag: 1.0
+tag: 
+- 1.0
+- 2.0
 ---
 
 | Syntax | Description |
