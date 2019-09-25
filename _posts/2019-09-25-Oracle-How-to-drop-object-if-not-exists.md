@@ -7,9 +7,9 @@ tag:
 - Database
 ---
 
-<p>
+
 **The best and most efficient way is to catch the "table not found" exception: this avoids the overhead of checking if the table exists twice; and doesn't suffer from the problem that if the DROP fails for some other reason (that might be important) the exception is still raised to the caller:**
-</p>
+
 
 ## Table
 
